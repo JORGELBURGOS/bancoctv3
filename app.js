@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
 
 let data = [];
 let filtros = {
@@ -117,3 +118,5 @@ function mostrarVista(seccion) {
 }
 
 document.addEventListener('DOMContentLoaded', cargarDatos);
+
+});
